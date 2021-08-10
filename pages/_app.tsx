@@ -1,6 +1,6 @@
-import 'antd/dist/antd.css'
-
 import { ConfigProvider } from 'antd'
+
+import 'antd/dist/antd.css'
 import ptBR from 'antd/lib/locale/pt_BR'
 import { AppProps } from 'next/app'
 
