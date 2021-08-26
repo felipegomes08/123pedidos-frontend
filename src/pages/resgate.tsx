@@ -1,5 +1,5 @@
 import { Sidebar } from 'src/components'
-import styles from 'src/styles/pages/resgate.module.css'
+import styles from 'src/styles/pages/resgate.module.scss'
 
 export default function Home() {
   return (
