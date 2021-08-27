@@ -3,14 +3,12 @@ import { ConfigProvider } from 'antd'
 import ptBR from 'antd/lib/locale/pt_BR'
 import { AppProps } from 'next/app'
 
-// import GlobalStyle from '../styles/global'
-// import theme from '../styles/theme'
+// import '../styles/global.module.scss'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ConfigProvider locale={ptBR}>
       <Component {...pageProps} />
-      {/* <GlobalStyle /> */}
     </ConfigProvider>
   )
 }

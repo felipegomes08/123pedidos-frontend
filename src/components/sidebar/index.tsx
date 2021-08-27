@@ -1,7 +1,7 @@
 import { StepBackwardOutlined, UserOutlined } from '@ant-design/icons'
 import { Avatar, Row, Col } from 'antd'
 
-import styles from './styles.module.css'
+import styles from './styles.module.scss'
 
 export default function Sidebar({ children }) {
   return (

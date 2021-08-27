@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    padding: 25px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #565660;
+}
+.subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #9799a8;
+}
+
+.rowCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
