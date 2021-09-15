@@ -1,3 +1,7 @@
 export { default as Sidebar } from './Sidebar'
 export { default as Button } from './Button'
 export { default as Card } from './Card'
+export { default as InputText } from './InputText'
+export { default as RadioGroup } from './RadioGroup'
+export { default as ComboBox } from './ComboBox'
+export { default as DatePick } from './DatePick'

@@ -1,5 +1,5 @@
-import { Sidebar } from 'src/components'
-import styles from 'src/styles/pages/resgate.module.css'
+import { Sidebar, Button } from 'src/components'
+import styles from 'src/styles/pages/resgate.module.scss'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           <input className={styles.input} type='date' />
           <input className={styles.input} type='date' />
         </div>
-        <button className={styles.button}>Voltar para o ínicio</button>
+        <Button className={styles.button} title='Voltar para o ínicio' />
       </div>
     </Sidebar>
   )

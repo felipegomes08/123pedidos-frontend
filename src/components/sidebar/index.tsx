@@ -1,9 +1,16 @@
+import { ReactNode } from 'react'
+
 import { StepBackwardOutlined, UserOutlined } from '@ant-design/icons'
 import { Avatar, Row, Col } from 'antd'
 
 import styles from './styles.module.scss'
 
-export default function Sidebar({ children }) {
+export interface SidebarProps {
+  children: ReactNode
+  footer?: ReactNode
+}
+
+export default function Sidebar({ children, footer }: SidebarProps) {
   return (
     <div className={styles.container}>
       <Row className={styles.row}>
@@ -21,9 +28,12 @@ export default function Sidebar({ children }) {
             <StepBackwardOutlined className={styles.icon} />
           </div>
         </Col>
-        <Col flex='auto' className={styles.content}>
-          {children}
-        </Col>
+        <div className={styles.col}>
+          <Col flex='auto' className={styles.content}>
+            {children}
+          </Col>
+          {footer}
+        </div>
       </Row>
     </div>
   )

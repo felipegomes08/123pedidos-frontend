@@ -1,7 +1,7 @@
 .container {
   width           : 100vw;
   height          : 100vh;
-  background-color: #b3b1b1;
+  background-color: #dddddd;
   padding         : 1.75rem;
   display         : flex;
   flex            : 1;
@@ -52,4 +52,9 @@
 
 .selected {
   background-color: #f9fafc;
+}
+.col{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
