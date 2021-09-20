@@ -1,7 +1,7 @@
 .container {
   width           : 100vw;
   height          : 100vh;
-  background-color: #b3b1b1;
+  background-color: #dddddd;
   padding         : 1.75rem;
   display         : flex;
   flex            : 1;
@@ -44,12 +44,15 @@
 .icon {
   border       : #e7e7e7 1px solid;
   border-radius: 50px;
-  font-size    : 30px;
-  padding      : 5px;
-  margin       : 5px 0px;
-
+  padding      : 9px;
+  margin       : 0.5rem 0;
 }
 
 .selected {
   background-color: #f9fafc;
+}
+.col{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }

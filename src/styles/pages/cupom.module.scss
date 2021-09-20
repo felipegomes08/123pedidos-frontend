@@ -1,0 +1,73 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.groupContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.inputContainer{
+    width: 50%;
+    height: 45px;
+}
+.shortInput,.comboInput,.dateInput{
+    width: 100%;
+    height: 45px;
+}
+.title{
+    color: #444547;
+    font-size: 20px;
+    font-weight: 700;
+    .letterRed{color: red;}
+}
+.secondTitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #858991;
+    .letterRed{color: red;font-weight: 700;}
+}
+.groupDates1, .groupDates2, .groupDates3, .groupDates4{
+    width: 100%;
+}
+.groupDates2, .groupDates3{
+    margin: 0 10px;
+}
+.groupDates1{margin-right: 10px;}
+.groupDates4{margin-left: 10px;}
+.miniTitle{
+    margin: 0;
+}
+.contain{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.dica{
+    background-color: #f9fafc;
+    width: 60%;
+    box-shadow: 10px 10px 20px 0px #c4c4c4;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.divBtn{
+    width: 40%;
+    margin-left: 10px;
+}
+.btn{
+    height: 65px;
+}
+.icon{
+    padding: 0 15px;
+}

@@ -14,7 +14,7 @@ export default function Card({ title, description, titleButton, type }: CardProp
     <div className={type === 'solid' ? styles.cardSolid : styles.cardOutline}>
       <h1>{title}</h1>
       <p>{description}</p>
-      <Button title={titleButton} />
+      <Button className={styles.btn} title={titleButton} />
     </div>
   )
 }

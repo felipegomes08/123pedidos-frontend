@@ -1,0 +1,14 @@
+.date{
+    border: 1.5px solid #a9adb6;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 14px;
+    ::placeholder{
+        font-size: 12px;
+        color: #d2d4e0;
+    }
+}
+.sub{
+    margin: 0;
+}
