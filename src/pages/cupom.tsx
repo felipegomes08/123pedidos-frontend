@@ -1,6 +1,6 @@
 import { ExclamationCircleOutlined } from '@ant-design/icons'
 import {
-  Sidebar,
+  Container,
   InputText,
   RadioGroup,
   ComboBox,
@@ -11,7 +11,7 @@ import styles from 'src/styles/pages/cupom.module.scss'
 
 export default function Home() {
   return (
-    <Sidebar
+    <Container
       footer={
         <div className={styles.footer}>
           <div className={styles.dica}>
@@ -19,7 +19,7 @@ export default function Home() {
               className={styles.icon}
               style={{ fontSize: '28px', color: 'red' }}
             />
-            <h3 className={styles.secondTitle}>
+            <h3 className={styles.description}>
               <span className={styles.letterRed}>Dica!</span> Crie seu cupom e divulgue
               nas suas redes sociais
             </h3>
@@ -35,13 +35,13 @@ export default function Home() {
           <h1 className={styles.title}>
             <span className={styles.letterRed}>Primeiro passo</span> para criar seu cupom
           </h1>
-          <p className={styles.secondTitle}>
+          <p className={styles.description}>
             Dê descontos exclusivos para seus clientes, os cupons serão distribuídos em
             seu cardápio online.
           </p>
         </div>
         <div className={styles.contain}>
-          <p className={styles.miniTitle}>Nome do cupom</p>
+          <p className={styles.label}>Nome do cupom</p>
           <InputText className={styles.inputContainer} placeholder='Delivery5' />
           <div className={styles.groupContainer}>
             <RadioGroup
@@ -84,6 +84,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </Sidebar>
+    </Container>
   )
 }

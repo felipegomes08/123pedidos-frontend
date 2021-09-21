@@ -1,9 +1,9 @@
-import { Sidebar, Card } from 'src/components'
+import { Container, Card } from 'src/components'
 import styles from 'src/styles/pages/promocoes.module.scss'
 
 export default function Home() {
   return (
-    <Sidebar>
+    <Container>
       <div className={styles.container}>
         <h1 className={styles.title}>Promoções</h1>
         <p className={styles.subtitle}>
@@ -37,6 +37,6 @@ export default function Home() {
           />
         </div>
       </div>
-    </Sidebar>
+    </Container>
   )
 }

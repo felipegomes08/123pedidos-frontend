@@ -1,9 +1,9 @@
-import { Sidebar, Button } from 'src/components'
+import { Container, Button } from 'src/components'
 import styles from 'src/styles/pages/resgate.module.scss'
 
 export default function Home() {
   return (
-    <Sidebar>
+    <Container>
       <div className={styles.container}>
         <h1 className={styles.title}>
           Parabéns! Seu cupom de desconto <br /> foi agendado com sucesso.
@@ -17,6 +17,6 @@ export default function Home() {
         </div>
         <Button className={styles.button} title='Voltar para o ínicio' />
       </div>
-    </Sidebar>
+    </Container>
   )
 }
