@@ -9,7 +9,7 @@ import {
 } from 'src/components'
 import styles from 'src/styles/pages/cupom.module.scss'
 
-export default function Home() {
+export default function Cupom() {
   return (
     <Container
       footer={

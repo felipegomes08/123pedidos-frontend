@@ -16,34 +16,48 @@ export default function Sidebar() {
     <Col flex='100px' className={styles.sidebar}>
       <Avatar size={85} icon={<UserOutlined />} className={styles.avatar} />
       <div className={styles.menu}>
-        <AppstoreOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <TagsOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <FileTextOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <BellOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <WhatsAppOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <SettingOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
-        <UserOutlined
-          style={{ fontSize: '20px', color: 'gray' }}
-          className={styles.icon}
-        />
+        <a className={styles.button}>
+          <AppstoreOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <TagsOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <FileTextOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <BellOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <WhatsAppOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <SettingOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
+        <a className={styles.button}>
+          <UserOutlined
+            style={{ fontSize: '20px', color: 'gray' }}
+            className={styles.icon}
+          />
+        </a>
       </div>
     </Col>
   )
