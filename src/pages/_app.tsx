@@ -3,7 +3,7 @@ import { ConfigProvider } from 'antd'
 import ptBR from 'antd/lib/locale/pt_BR'
 import { AppProps } from 'next/app'
 
-// import '../styles/global.module.scss'
+import '../styles/global.scss'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

@@ -14,7 +14,11 @@ import styles from './styles.module.scss'
 export default function Sidebar() {
   return (
     <Col flex='100px' className={styles.sidebar}>
-      <Avatar size={85} icon={<UserOutlined />} className={styles.avatar} />
+      <Avatar
+        size={85}
+        className={styles.avatar}
+        src='https://www.w3schools.com/howto/img_avatar.png'
+      />
       <div className={styles.menu}>
         <a className={styles.button}>
           <AppstoreOutlined

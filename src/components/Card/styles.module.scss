@@ -1,52 +1,53 @@
-.cardSolid{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 15px;
-    justify-content: space-around;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px 0px #dedede;
-    background-color: #fff;
+.cardSolid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 0px #dedede;
+  background-color: #fff;
 }
-.cardSolid:last-child{
-    margin-left: 18px;
+.cardSolid:last-child {
+  margin-left: 18px;
 }
-.cardOutline{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 15px;
-    justify-content: space-around;
-    border-radius: 10px;
-    border: 2px solid #a9adb6;
-    margin: 18px 0px;
+.cardOutline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 2px solid #a9adb6;
+  margin: 18px 0px;
 }
-.cardSolid{
-    h1{
-        font-size: 20px;
-        color: rgb(19, 19, 19);
-        font-weight: 900;
-        color: #2e3a52;
-    }
-    p{
-        font-size: 13px;
-        font-weight: 500;
-        color: #9698a7;
-    }
+.cardSolid {
+  h1 {
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    font-weight: 900;
+    color: #2e3a52;
+  }
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #9698a7;
+  }
 }
-.cardOutline{
-    h1{
-        font-size: 20px;
-        color: rgb(19, 19, 19);
-        font-weight: 900;
-        color: #565660;
-    }
-    p{
-        font-size: 13px;
-        font-weight: 500;
-        color: #9799a8;
-    }
+.cardOutline {
+  h1 {
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    font-weight: 900;
+    color: #565660;
+  }
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #9799a8;
+  }
 }
-.btn{
-    width: 100px;
+.btn {
+  margin-top: 1rem;
+  width: 10rem;
 }

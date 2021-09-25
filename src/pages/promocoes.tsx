@@ -26,12 +26,12 @@ export default function Home() {
         </div>
         <div>
           <Card
-            title='Crie seu primeiro Cupom de Desconto'
+            title='Desconto para combos'
             description='É muito simples criar seu próprio cupom de desconto, você pode começar agora mesmo.'
             titleButton='Criar cupom'
           />
           <Card
-            title='Crie seu primeiro Cupom de Desconto'
+            title='Desconto para combos'
             description='É muito simples criar seu próprio cupom de desconto, você pode começar agora mesmo.'
             titleButton='Criar cupom'
           />

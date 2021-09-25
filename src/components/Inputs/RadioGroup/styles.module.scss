@@ -1,39 +1,39 @@
-.container{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
-.radioBottom{
-    flex: 1;
-    border: 1.5px solid #a9adb6;
-    height: 45px;
-    background-color: transparent;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-    margin: 0 10px;
+.radioBottom {
+  flex: 1;
+  border: 1.5px solid #a9adb6;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0 10px;
 }
-.selected{
-    @extend .radioBottom;
-    flex: 1;
-    background-color: #ff0000;
-    color: #FFF;
+.selected {
+  @extend .radioBottom;
+  flex: 1;
+  background-color: #f21b3f;
+  color: #fff;
 }
-.divRadios{
-    width: 100%;
-    display: flex;
-    :first-child{
-        margin-left: 0;
-    }
-    :last-child{
-        margin-right: 0;
-    }
+.divRadios {
+  width: 100%;
+  display: flex;
+  :first-child {
+    margin-left: 0;
+  }
+  :last-child {
+    margin-right: 0;
+  }
 }
-.radioGroup{
-    display: flex;
-    flex: 1;
+.radioGroup {
+  display: flex;
+  flex: 1;
 }
-.sub{
-    margin: 0;
+.sub {
+  margin: 0;
 }
